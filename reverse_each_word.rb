@@ -6,7 +6,7 @@ def reverse_each_word(string)
     newarray[i]= word.reverse
     i+=1
   end
-  newarray.join
+  newarray.join(" ")
 end
 
 def reverse_each_word(string)
