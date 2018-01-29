@@ -6,10 +6,10 @@ def reverse_each_word(string)
     newarray[i]= word.reverse
     i+=1
   end
-  return newarray
+  newarray.join
 end
 
 def reverse_each_word(string)
   firstarray= string.split(" ")
   firstarray.collect do |word|
-    word.reverse 
+    word.reverse
