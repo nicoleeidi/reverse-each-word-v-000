@@ -3,6 +3,7 @@ def reverse_each_word(string)
   newarray= []
   i=0
   firstarray.each do |word|
-    newarrayword.reverse
+    newarray[i]= word.reverse
+    i+=1
   end
   return newarray
