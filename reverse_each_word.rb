@@ -11,3 +11,5 @@ end
 
 def reverse_each_word(string)
   firstarray= string.split(" ")
+  firstarray.collect do |word|
+    word.reverse 
