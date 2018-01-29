@@ -7,3 +7,7 @@ def reverse_each_word(string)
     i+=1
   end
   return newarray
+end
+
+def reverse_each_word(string)
+  firstarray= string.split(" ")
